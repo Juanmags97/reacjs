@@ -1,0 +1,191 @@
+[
+    {
+        "id":1,
+        "idCategoria":1,
+        "nombre": "Sneaker:",
+        "marca": "Jordan",
+        "modelo": "Retro 4 Lightning",
+        "precio":85000 ,
+        "stock": 50,
+        "img": "air-jordan-4-lightning.webp"
+    },
+    
+    {
+        "id":2,
+        "idCategoria":1,
+        "nombre": "Sneaker:",
+        "marca": "Jordan",
+        "modelo": "Retro 8 doernbecher",
+        "precio":89000 ,
+        "stock": 50,
+        "img": "air-jordan-8-retro-doernbecher.webp"
+    },
+
+    {
+        "id":3,
+        "idCategoria":1,
+        "nombre": "Sneaker:",
+        "marca": "Jordan",
+        "modelo": "Retro 11 Concord",
+        "precio":110000 ,
+        "stock": 50,
+        "img": "Air-Jordan-11-Retro-Concord.webp"
+    },
+
+    {
+        "id":4,
+        "idCategoria":1,
+        "nombre": "Sneaker:",
+        "marca": "Jordan",
+        "modelo": "Retro 11 Playoffs",
+        "precio":82000 ,
+        "stock": 50,
+        "img": "Air-Jordan-11-Retro-Playoffs.webp"
+    },
+
+    {
+        "id":5,
+        "idCategoria":1,
+        "nombre": "Sneaker:",
+        "marca": "Jordan",
+        "modelo": "Retro 4 Raptors",
+        "precio":140000 ,
+        "stock": 50,
+        "img": "jordan-4-raptors.webp"
+    },
+
+    {
+        "id":6,
+        "idCategoria":1,
+        "nombre": "Sneaker:",
+        "marca": "Jordan",
+        "modelo": "Retro 8 Playoffs",
+        "precio":200000 ,
+        "stock": 50,
+        "img": "Jordan-retro-8-playoffs.webp"
+    },
+
+    {
+        "id":7,
+        "idCategoria":3,
+        "nombre": "Accesories:",
+        "marca": "Supreme",
+        "modelo": "Supreme Fox Racing Roost Deflector",
+        "precio":450000 ,
+        "stock": 50,
+        "img": "Supreme-Fox-Racing-Proframe-Roost-Deflector.webp"
+    },
+
+    {
+        "id":8,
+        "idCategoria":3,
+        "nombre": "Accesories:",
+        "marca": "Supreme",
+        "modelo": "Supreme Mini Bike",
+        "precio":3000000 ,
+        "stock": 50,
+        "img": "supreme-motito.webp"
+    },
+
+    {
+        "id":9,
+        "idCategoria":2,
+        "nombre": "Chlotes:",
+        "marca": "Supreme",
+        "modelo": "Supreme jacket NBA",
+        "precio":850000 ,
+        "stock": 50,
+        "img": "Supreme-Nike-NBA.webp"
+    },
+
+    {
+        "id":10,
+        "idCategoria":2,
+        "nombre": "Chlotes:",
+        "marca": "Supreme",
+        "modelo": "Supreme Skittlers Jacket",
+        "precio":800000 ,
+        "stock": 50,
+        "img": "Supreme-Skittlers.webp"
+    },
+
+    {
+        "id":11,
+        "idCategoria":3,
+        "nombre": "Accesories:",
+        "marca": "Supreme",
+        "modelo": "Supreme Numark PT01",
+        "precio":700000 ,
+        "stock": 50,
+        "img": "supreme-tocadisco.webp"
+    },
+
+    {
+        "id":12,
+        "idCategoria":2,
+        "nombre": "Chlotes:",
+        "marca": "Supreme",
+        "modelo": "Supreme Vanson Jacket",
+        "precio":650000 ,
+        "stock": 50,
+        "img": "Supreme-vanson.webp"
+    },
+
+    {
+        "id":13,
+        "idCategoria":2,
+        "nombre": "Chlotes:",
+        "marca": "Supreme",
+        "modelo": "Supreme Wise Racing Jacket",
+        "precio":800000 ,
+        "stock": 50,
+        "img": "Supreme-Wise-Racing-Jacket.webp"
+    },
+
+    {
+        "id":14,
+        "idCategoria":1,
+        "nombre": "Sneaker:",
+        "marca": "Jordan",
+        "modelo": "Retro 4 Black Cat",
+        "precio":80000 ,
+        "stock": 50,
+        "img": "tenis-jordan-retro-4-blackcat.webp"
+    },
+
+    {
+        "id":15,
+        "idCategoria":1,
+        "nombre": "Sneaker:",
+        "marca": "Nike",
+        "modelo": "Up Tempo Chicago",
+        "precio":93000 ,
+        "stock": 50,
+        "img": "Up-tempo-chicago.webp"
+    },
+
+    {
+        "id":16,
+        "idCategoria":1,
+        "nombre": "Sneaker:",
+        "marca": "Nike",
+        "modelo": "Up Tempo Supreme",
+        "precio":350000 ,
+        "stock": 50,
+        "img": "up-tempo-supreme.webp"
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]   
