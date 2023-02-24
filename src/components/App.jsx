@@ -5,6 +5,7 @@ import Navbar from './Navbar/Navbar';
 import ItemCount from './ItemCount/ItemCount';
 import ItemListContainer from './ItemListContainer/ItemListContainer';
 import Item from './Item/Item';
+import ItemDetailContainer from './ItemDetailContainer/ItemDetailContainer';
 export const App =() => {
   
   return (
@@ -12,7 +13,7 @@ export const App =() => {
     <Navbar valor={"Liberace"}/>
     <ItemCount ValInicial={1} stock={17} />
     <ItemListContainer/>
-    
+    <ItemDetailContainer/>
     </>
   );
   }
