@@ -17,11 +17,31 @@
     margin-bottom: 3px;
     text-align: center;
 }
+.cartContainer{
+    margin-top: 3%;
+    margin-left: 26,5%;
+}
+.cardCart{
+    max-width: 640px;
+
+}
+
+.divButton button{
+    margin: 4px;
+
+}
+
 img{
     margin-top: 3px;
 }
+
 .itemDetail{
     max-width: 760px;
+    margin-top: 20px;
+    
+}
+
+.contFront{
     margin-top: 20px;
     
 }
