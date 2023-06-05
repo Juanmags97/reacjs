@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import React from 'react';
-const Secciones = Reacto.memo(() => {
+
+const Secciones = React.memo(() => {
     return (
         <>
             <li className="nav-item">

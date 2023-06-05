@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import ItemList from '../ItemList/ItemList';
 const Cart = () => {
-    const carrito =[ {id:1, idCategoria:1, nombre: "Sneaker:", marca: "Jordan", modelo: "Retro 4 Lightning", precio:85000 ,stock: 50, img: "air-jordan-4-lightning.webp"}]
+    const carrito =[ {id:1, idCategoria:1, nombre: "Sneaker:", marca: "Jordan", modelo: "Retro 4 Lightning", precio:85000 ,stock: 50, img: "https://firebasestorage.googleapis.com/v0/b/proyecto-final-gonzalez.appspot.com/o/air-jordan-4-lightning.webp?alt=media&token=d0748903-6357-40e5-95a2-960f702963bb"}]
     return(
         <>
         {
