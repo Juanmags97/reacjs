@@ -1,6 +1,6 @@
 
 import { initializeApp } from "firebase/app";
-import {getFirestore, collection, addDoc} from 'firebase/firestore'
+import {getFirestore, collection, doc, addDoc, getDocs, getDoc, updateDoc} from 'firebase/firestore'
 
 const firebaseConfig = {
   apiKey: "AIzaSyBVAsbr8hc7pN_sXPJy2S77rz4LZd7C2cc",
@@ -30,4 +30,39 @@ export const cargarBDD = async() =>{
               img: prod.img
           })
   })
+}
+
+export const getProductos = async ()=> {
+  const productos = await getDocs(collection(db,"productos"))
+  const items = productos.docs.map(prod =>{
+    return { ...prod.data(), id: prod.id }
+  })
+  return items
+}
+export const getProducto = async (id)=>{
+  const producto = await getDoc(doc(db,"prodcutos",id))
+  const item = {...producto.data(),id:producto.id}
+  return item
+}
+export const updateProducto = async(id, info) => {
+  await updateDoc(doc(db,"productos", id), info)
+}
+
+export const deleteProductos = async(id) =>{
+  await deleteDoc(doc(db,"productos", id))
+}
+
+export const createOrdenCompra = async(cliente, productos,precioTotal,fecha) =>{
+  const OrdenCompra = await addDoc(collection(db,"ordenesCompra"),{
+      datosCliente: cliente,
+      producots: productos,
+      precioTotal: precioTotal,
+      fecha: fecha
+  })
+  return OrdenCompra
+}
+export const getOrdenCompra = async(id) => {
+  const oC = await getDoc(doc(db, "ordenesCompra",id))
+  const ordenCompra = {...oC.data(),id:oC.id}
+  return ordenCompra
 }

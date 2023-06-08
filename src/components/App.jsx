@@ -6,7 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 //Firebase
-import { cargarBDD } from '../Utils/firebase';
+import { updateProducto, deleteProductos } from '../Utils/firebase';
 
 //Toastify
 import { ToastContainer, toast } from 'react-toastify';
@@ -24,7 +24,7 @@ import ItemCart from './ItemCart/ItemCart';
 
 
 export const App =() => {
-  cargarBDD()
+  updateProducto()
   
   return (
     <>
