@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-import { getProductos } from '../../Utils/funciones';
+import { getProductos} from '../../Utils/funciones';
 import { useParams } from 'react-router-dom';
 
 import ItemList from '../ItemList/ItemList';
@@ -11,11 +11,10 @@ export const ItemListContainer = () => {
 
     useEffect(()=> {
         if(idCategoria){
-            getProductos().then(products => {
+            getProductos().then(prod => {
                 const prods = products.filter(prod => prod.idCategoria === parseInt (idCategoria))
                 const items = <ItemList prods={prods} plantilla="Item"/>
                 setProductos(items)
-            
             })
 
         } else{
